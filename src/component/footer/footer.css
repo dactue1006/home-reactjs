@@ -1,0 +1,40 @@
+.footer{
+    color: rgb(0, 132, 255);
+    width: 100%;
+    margin-top: 100px;
+    height: 50px;
+    display: table;
+}
+.footer-name{
+    display:table-cell;
+    vertical-align:middle;
+    width: 50%;
+    padding-left: 10%;
+}
+.footer-contact{
+    float: right;
+    padding-right: 10%;
+    width: 30%;
+}
+.footer-contact li{
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #d4e1f6;
+    margin-left: 7%;
+}
+.footer-contact li a img{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
